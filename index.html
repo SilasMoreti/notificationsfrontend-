@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+  <section id="notificacoes">
+    <div id="main-ntf">
+      <h1>Notifications<div id="ntf-qtd"> 3 </div>
+      </h1>
+      <input type="button" id="date-ntf" onclick="limpar()" value="Mark all as read"></input>
+    </div>
+    <section id="menu-ntf">
+      <div id="ntf-cln1" class="barra-ntf">
+        <img src="./assets/images/avatar-mark-webber.webp">
+        <div>
+          <div class="point-red">
+            <p><strong>Mark Webber</strong> reacted to your recent post My first tournament today!</p>
+            <div class="nao-lido"></div>
+          </div>
+          <p class="date-ntf">1m ago</p>
+        </div>
+      </div>
+      <div id="ntf-cln2" class="barra-ntf">
+        <img src="./assets/images/avatar-angela-gray.webp">
+        <div>
+          <div class="point-red">
+            <p><strong>Angela Gray</strong> followed you</p>
+            <p class="nao-lido"></p>
+          </div>
+          <p class="date-ntf">5m ago</p>
+        </div>
+      </div>
+      <div id="ntf-cln3" class="barra-ntf">
+        <img src="./assets/images/avatar-jacob-thompson.webp">
+        <div>
+          <div class="point-red">
+            <p><strong>Jacob Thompson</strong> has joined your group <a href="#"><strong class="str">Chess Club</strong></a></p>
+            <span class="nao-lido"></span>
+          </div>
+          <p class="date-ntf">1 day ago</p>
+        </div>
+      </div>
+      <div class="ntf-cln4 barra-ntf">
+        <div class="rizky">
+          <div class="img-ntf">
+            <img src="./assets/images/avatar-rizky-hasanuddin.webp">
+            <div>
+              <p><strong>Rizky Hasanuddin</strong> sent you a private message</p>
+              <p class="date-ntf">5 days ago</p>
+            </div>
+          </div>
+          <div class="quadro-ntf">
+            <p class="msg-ntf">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+              I'm already having lots of fun and improving my game.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="ntf-cln5 barra-ntf">
+        <img src="./assets/images/avatar-kimberly-smith.webp">
+        <div class="kim">
+          <div class="kimm">
+            <p><strong>Kimberly Smith</strong> commented on your picture</p>
+            <img class="imgKim" src="./assets/images/image-chess.webp">
+          </div>
+          <p class="date-ntf data-week-ago">1 week ago</p>
+        </div>
+      </div>
+      <div class="ntf-cln6 barra-ntf">
+        <img src="./assets/images/avatar-nathan-peterson.webp">
+        <div>
+          <p><strong>Nathan Peterson</strong> reacted to your recent post <strong>5 end-game strategies to increase your
+              win
+              rate</strong></p>
+          <p class="date-ntf">2 weeks ago</p>
+        </div>
+      </div>
+      <div class="ntf-cln7 barra-ntf">
+        <img src="./assets/images/avatar-anna-kim.webp">
+        <div>
+          <p><strong>Anna Kim</strong> left the group <a href="#"><strong class="str">Chess Club</strong></a></p>
+          <p class="date-ntf">2 weeks ago</p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/SilasMoreti" target="_blank">Silas Moreti</a>.
+  </div>
+
+  <script src="script.js">
+
+  </script>
+</body>
+
+</html>
